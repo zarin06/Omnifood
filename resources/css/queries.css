@@ -1,0 +1,69 @@
+/*--------small phones : 0 to 480px---------------------------*/
+
+@media only screen and (max-width: 480px) {
+    
+}
+
+/*--------ipad : 481px to 767px---------------------------*/
+
+@media only screen and (max-width: 782px) {
+    .play784 {
+        float: left;
+    }
+    .app784 {
+        float: right;
+    }
+    .city {
+        margin-right: 5px;
+    }
+}
+
+/*--------small tab to big tab : 768px to 1023px---------------------------*/
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+    .steps-box {
+        margin-top: 10px;
+    }
+    .steps-box:last-child {
+        margin-top: 10px;
+    }
+    .work-step {
+        margin-bottom: 40px;
+    }
+    .work-step:last-of-type {
+        margin-bottom: 60px;
+    }
+    .app-screen {
+        width: 100%;
+        padding-top: 40px;
+    }
+}
+
+/*--------big tab to small notebook : 1024px to 1200px---------------------------*/
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        padding: 0 2%;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+
+
+
+
